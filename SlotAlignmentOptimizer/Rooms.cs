@@ -23,8 +23,8 @@ namespace SlotAlignmentOptimizer
         // 同時刻に開催されるイベントで参加者が重なっている数 * OVERLAP_PENALTY をペナルティとして返す
         double exist_constraint(int t, int i, int j)
         {
-            Event event1 = rooms[i].get(t);
-            Event event2 = rooms[j].get(t);
+            Event event1 = rooms[i].Get(t);
+            Event event2 = rooms[j].Get(t);
             return OVERLAP_PENALTY * event1.overlap(event2);
         }
         // 連続する2イベントで異なる参加者数 * CHANGE_PENALTY をペナルティとして返す
@@ -35,8 +35,8 @@ namespace SlotAlignmentOptimizer
                 return 0;
             }
             Room room = rooms[i];
-            int overlap = room.get(t).overlap(room.get(t + 1));
-            int changenum = room.get(t).numberOfAttendees() + room.get(t + 1).numberOfAttendees() - overlap;
+            int overlap = room.Get(t).overlap(room.Get(t + 1));
+            int changenum = room.Get(t).numberOfAttendees() + room.Get(t + 1).numberOfAttendees() - overlap;
             return changenum * CHANGE_PENALTY;
         }
         public double loss()

@@ -11,16 +11,16 @@ namespace SlotAlignmentOptimizer
     // イベントはイベント名と複数の参加者からなる
     public class Event
     {
-        public string name;
-        public List<Attendee> attendees;
+        public string name { get; private set;  }
+        public List<Attendee> attendees { get; private set;  }
         public static Event nullEvent = null;
         public Event(string name)
         {
             this.name = name;
             attendees = new List<Attendee>();
-            if (nullEvent == null)
+            if (nullEvent == null && name != "<NULL>")
             {
-                nullEvent = new Event("<NULL>");
+              nullEvent = new Event("<NULL>");
             }
         }
         // ２つのイベントで参加者が何人オーバーラップしているか調べる
@@ -40,6 +40,16 @@ namespace SlotAlignmentOptimizer
         public int numberOfAttendees()
         {
             return attendees.Count;
+        }
+        override public string ToString()
+        {
+            string s = "<event>";
+            s = "<name>" + name + "</name><attendees>";
+            foreach (Attendee a in attendees)
+            {
+                s += a.ToString();
+            }
+            return s + "</attendees></event>";
         }
     }
 }

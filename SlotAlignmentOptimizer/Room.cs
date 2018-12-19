@@ -11,9 +11,9 @@ namespace SlotAlignmentOptimizer
     // 部屋は複数の時間スロットからなり、１つのスロットはイベントに対応する
     public class Room
     {
-        public string name;
-        public Event[] events;
-        public int max_events;
+        public string name { get; private set; }
+        public Event[] events { get; private set; }
+        public int max_events { get; private set; }
         int tail;
         bool changable;
         public Room(string name, int max)
@@ -21,6 +21,10 @@ namespace SlotAlignmentOptimizer
             this.name = name;
             max_events = max;
             events = new Event[max];
+            for (int i = 0; i < max; i++)
+            {
+                events[i] = Event.nullEvent;
+            }
             tail = 0;
             changable = true;
         }
@@ -33,7 +37,7 @@ namespace SlotAlignmentOptimizer
             events[tail] = e;
             tail++;
         }
-        public Event get(int i)
+        public Event Get(int i)
         {
             if (i >= max_events || events[i] == null)
             {
