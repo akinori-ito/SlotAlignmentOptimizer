@@ -18149,7 +18149,6 @@
       "sha512": "ed0kCs6Gxfw2ZGf34eqO8cwaD16Ll1FKw+jBfGevdiHqc2kTwux9yqkHwhe9WP8jzSbuZX3o4y3wMUUkz5gSeg==",
       "type": "package",
       "path": "microsoft.net.native.compiler/1.7.3",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.Compiler.props",
@@ -19049,7 +19048,6 @@
       "sha512": "eI4KNNMOpgpBkdXHFgmXD2l5gNdJJOV+ntN1Fwwnm93Rr7pmD8MGssJpI7wo7+uieaFIfAZ2waZjEnRR4Uu90A==",
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-arm/1.7.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-arm.props",
@@ -19449,7 +19447,6 @@
       "sha512": "3nrUuvayvlOdmx7yzUBu2PzKeQmZ0mwqhMfarOzt6X1tKjIrOONCFqH148rP7TgQDJBfKVSShB1f+BedF69emw==",
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-x64/1.7.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-x64.props",
@@ -19849,7 +19846,6 @@
       "sha512": "nC682cBwXA/ITw1BKnPxMBp93uHHFPmG/X9P+mQt1yCJBXnEcNi7XzzOROmqMuNwwtk5ci/cQE4HQDytn3O39g==",
       "type": "package",
       "path": "microsoft.net.native.sharedlibrary-x86/1.7.0",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "build/Microsoft.Net.Native.SharedLibrary-x86.props",
@@ -20271,7 +20267,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.2": {
-      "sha512": "Z6nHORZtHe6t8rgnqnLKcrTp5CRB2GK46CDbMhhrnc1HHiuhIrDqKDqjJ/fgtM/f26FYk8Y8pKLTB6rzAeGNZA==",
+      "sha512": "fRHBvQs9Z/ZSUAqaSotK1UPol/lwybTgdeTXR4eVw3rVDgzUnWGTUsK0A418oR7NrimNL1TQu/IM0RDa26s0qg==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.0.2",
       "files": [
@@ -20396,7 +20392,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "1nTvK10WUDP1CvhCvqMCpQg2aSKrGObuVhtea7vYs27EmxY+QDND4LLDMJcVErPj0hrwhOibMqTeo/zkwPW9gg==",
+      "sha512": "d/xeSODBpd6Axvx1ayYbta7isk+rJAfFIP4zUAFZD6T+is5g7ALxO8+D4Mb1QvoUtuquZHKmtHITTptiKkHtKg==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21582,7 +21578,7 @@
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "yd3MHby8zUeTAtWGxx0gM2vYpThYqYqUbEbVrXY6Hm1K+wrJSjsxJ1v5jeCqsJBY3mcygGl/DHZnACJ/RChK7Q==",
+      "sha512": "rzKmhRW/obtht31W7+Sqa4CemSfWVos70UjA9i0yG/kKh/i9Exr+RWGGJCQ8OV/vLtWHGZ/adbOSeoUTIqpm0g==",
       "type": "package",
       "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21776,7 +21772,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "ARCGW2RsQJlW/D3R4W7iOG00SY1EuYyNLDW1wMtho2KEF1Yrm0gTrP5R+Pihvz3DnnbD2WttJrJTUzCbCuHUdQ==",
+      "sha512": "I9aTdtP5lgms6pxCrwFU4dbe93jGEd04GZoRmt0OYmB/z927LVSyYRRCrk2Wzd/NjtpYdzmTfWaLRDKRNJA0jw==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21956,7 +21952,7 @@
       ]
     },
     "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "R7Kp71uu8IVGgoi8amXz4D6uVKsIX+OFpE6A9jHv31p3SAn/JHGirLPdVDBLSrz38IZEqpWbrWCLCZWV3cJ/hg==",
+      "sha512": "fTxltLq/on6FavlX6ovIA2c3CWPq3al2rcnN2+7Bz87cN8lrK3MiNP0rRqs/TXIYhftzlLJfivmkQCbCkgIRUg==",
       "type": "package",
       "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22137,7 +22133,7 @@
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "lEFHTJyjHvcfiIJNcwqHB37kFsNMvlFeOE1z5KCWFZVA8/wOpmHVCPp6J4DNE8e/DqCHUWRWtg2bl7ZWQP9GPg==",
+      "sha512": "5YxWy1exUvXEWs8IrsuHXBns32EF26+NciWH+rm6xcE+yfdX7f71OyTIjSUCD7X27TPIj2KjeHZBSuRZS273Cg==",
       "type": "package",
       "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22331,7 +22327,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "iufkZip18UWFljbZjVpXcCqB8LBvxAoFMLRAMyANVNXkuayKYuQPl/E07muRlCYmkDTUFGyQioU5WHBawCu/gw==",
+      "sha512": "njejSRFdmE9mSpJoWvO6pHDcgysjQ5NG6lDF2P0Kq+gX7XGPHiMLlvUH1/Etm9cJDaps/uU3ZotYdobs3x2+mw==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22511,7 +22507,7 @@
       ]
     },
     "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "cyuG6c1fX2tuLByZ+RyIqzI22Y1qcusVA2xWma1T3q0dJY43oUu8p37hRnLLg+iKCmeWx2p6pf365xR9wl/0qQ==",
+      "sha512": "903sMr0WffmzEjGGZXgEcTa4yCJiJaQth/ud8cR1+PlOZW/TXaefCQ9C8qmN8Knvs32yJoPQbXP9GHjEtlp81A==",
       "type": "package",
       "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22705,7 +22701,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "brlcvN8Tp9bz+jp46O2iNXhqcEbnvtpmViUENyzAJj+BNm60TxUJbG56+9D+yauA+5BT2CR3nEkfeTnWV8/ILQ==",
+      "sha512": "HHX4+acMi+KeTPzJfyRuKb7qpnLVsUWWEPUCaBY7SWrajs2rbNS4FOg2EseTGElBuUBqRAbKk0J+U8p7t1yzhg==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22902,7 +22898,6 @@
       "sha512": "YaXA5RVLCYIcV1N31A7MJhWJnNkNfGnyRBNH1yYilUrBDvzMxNsbXX2pD7owWsC/go/4LRwbHbdWWXwHowKNvw==",
       "type": "package",
       "path": "runtime.win7-x64.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -22958,7 +22953,6 @@
       "sha512": "80Jj8QlMLAnTq+BDhoHBnSNXRKqVjjZM9VjHcpw9/F98cBmh80rBdbnM0AAr54htjhzupYvwLqwuKnlzxec04A==",
       "type": "package",
       "path": "runtime.win7-x86.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -23016,7 +23010,6 @@
       "sha512": "0V6sq7Dg0bQPrJtm/Qw5Zu0e7gidnRPLaqUhKIkLYzVn64jkat+JnR6LcezryD3c0Wuva/MdJWYSAaOPq5V/Zw==",
       "type": "package",
       "path": "runtime.win8-arm.microsoft.netcore.runtime.coreclr/1.0.2",
-      "hasTools": true,
       "files": [
         ".nupkg.metadata",
         "ThirdPartyNotices.txt",
@@ -27909,24 +27902,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
+    "C:\\Users\\aito\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
+      "projectUniqueName": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
       "projectName": "SlotAlignmentOptimizer",
-      "projectPath": "c:\\users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
-      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\obj\\",
+      "projectPath": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
+      "packagesPath": "C:\\Users\\aito\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aito\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

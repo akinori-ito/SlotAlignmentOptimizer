@@ -11,8 +11,40 @@ namespace SlotAlignmentOptimizer
     // 同じ時間スロットで複数の部屋でイベントが開催される
     public class Rooms
     {
+        public class Eventpair
+        {
+            int[] room;
+            int[] slot;
+            Rooms rooms;
+            public Eventpair(Rooms rs)
+            {
+                this.rooms = rs;
+                room = new int[2];
+                slot = new int[2];
+                do
+                {
+                    room[0] = rs.rand_room();
+                    room[1] = rs.rand_room();
+                    slot[0] = rs.rand_slot();
+                    slot[1] = rs.rand_slot();
+                } while (room[0] == room[1] && slot[0] == slot[1]);
+            }
+            public Event GetEvent(int i)
+            {
+                return rooms.rooms[room[i]].Get(slot[i]);
+            }
+            public void swap()
+            {
+                Event e0 = rooms.rooms[room[0]].Get(slot[0]);
+                Event e1 = rooms.rooms[room[1]].Get(slot[1]);
+                rooms.rooms[room[0]].Set(slot[0], e1);
+                rooms.rooms[room[1]].Set(slot[1], e0);
+            }
+        }
+
         public List<Room> rooms;
         int max_events;
+        Random rand = new Random();
         const double OVERLAP_PENALTY = 10000;
         const double CHANGE_PENALTY = 10;
         public Rooms(int max)
@@ -54,6 +86,18 @@ namespace SlotAlignmentOptimizer
                 }
             }
             return val;
+        }
+        public void AddRoom(string name)
+        {
+            rooms.Add(new Room(name, max_events));
+        }
+        public int rand_room()
+        {
+            return rand.Next(rooms.Count);
+        }
+        public int rand_slot()
+        {
+            return rand.Next(max_events);
         }
     }
 }

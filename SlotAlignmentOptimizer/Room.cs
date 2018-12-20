@@ -45,6 +45,10 @@ namespace SlotAlignmentOptimizer
             }
             return events[i];
         }
+        public void Set(int i, Event e)
+        {
+            events[i] = e;
+        }
         public void unchangable()
         {
             changable = false;
