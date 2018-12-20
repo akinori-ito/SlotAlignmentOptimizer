@@ -31,7 +31,7 @@ namespace SlotAlignmentOptimizer
         {
             return id == a.id;
         }
-        override public string ToString()
+        public override string ToString()
         {
             return "<attendee name=\"" + name + "\" id=\"" + id.ToString() + "\"/>";
         }

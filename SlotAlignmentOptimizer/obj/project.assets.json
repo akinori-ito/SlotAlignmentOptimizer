@@ -20267,7 +20267,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.0.2": {
-      "sha512": "fRHBvQs9Z/ZSUAqaSotK1UPol/lwybTgdeTXR4eVw3rVDgzUnWGTUsK0A418oR7NrimNL1TQu/IM0RDa26s0qg==",
+      "sha512": "Z6nHORZtHe6t8rgnqnLKcrTp5CRB2GK46CDbMhhrnc1HHiuhIrDqKDqjJ/fgtM/f26FYk8Y8pKLTB6rzAeGNZA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.0.2",
       "files": [
@@ -20392,7 +20392,7 @@
       ]
     },
     "Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "d/xeSODBpd6Axvx1ayYbta7isk+rJAfFIP4zUAFZD6T+is5g7ALxO8+D4Mb1QvoUtuquZHKmtHITTptiKkHtKg==",
+      "sha512": "1nTvK10WUDP1CvhCvqMCpQg2aSKrGObuVhtea7vYs27EmxY+QDND4LLDMJcVErPj0hrwhOibMqTeo/zkwPW9gg==",
       "type": "package",
       "path": "microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21578,7 +21578,7 @@
       ]
     },
     "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "rzKmhRW/obtht31W7+Sqa4CemSfWVos70UjA9i0yG/kKh/i9Exr+RWGGJCQ8OV/vLtWHGZ/adbOSeoUTIqpm0g==",
+      "sha512": "yd3MHby8zUeTAtWGxx0gM2vYpThYqYqUbEbVrXY6Hm1K+wrJSjsxJ1v5jeCqsJBY3mcygGl/DHZnACJ/RChK7Q==",
       "type": "package",
       "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21772,7 +21772,7 @@
       ]
     },
     "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "I9aTdtP5lgms6pxCrwFU4dbe93jGEd04GZoRmt0OYmB/z927LVSyYRRCrk2Wzd/NjtpYdzmTfWaLRDKRNJA0jw==",
+      "sha512": "ARCGW2RsQJlW/D3R4W7iOG00SY1EuYyNLDW1wMtho2KEF1Yrm0gTrP5R+Pihvz3DnnbD2WttJrJTUzCbCuHUdQ==",
       "type": "package",
       "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -21952,7 +21952,7 @@
       ]
     },
     "runtime.win10-arm64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "fTxltLq/on6FavlX6ovIA2c3CWPq3al2rcnN2+7Bz87cN8lrK3MiNP0rRqs/TXIYhftzlLJfivmkQCbCkgIRUg==",
+      "sha512": "R7Kp71uu8IVGgoi8amXz4D6uVKsIX+OFpE6A9jHv31p3SAn/JHGirLPdVDBLSrz38IZEqpWbrWCLCZWV3cJ/hg==",
       "type": "package",
       "path": "runtime.win10-arm64-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22133,7 +22133,7 @@
       ]
     },
     "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "5YxWy1exUvXEWs8IrsuHXBns32EF26+NciWH+rm6xcE+yfdX7f71OyTIjSUCD7X27TPIj2KjeHZBSuRZS273Cg==",
+      "sha512": "lEFHTJyjHvcfiIJNcwqHB37kFsNMvlFeOE1z5KCWFZVA8/wOpmHVCPp6J4DNE8e/DqCHUWRWtg2bl7ZWQP9GPg==",
       "type": "package",
       "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22327,7 +22327,7 @@
       ]
     },
     "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "njejSRFdmE9mSpJoWvO6pHDcgysjQ5NG6lDF2P0Kq+gX7XGPHiMLlvUH1/Etm9cJDaps/uU3ZotYdobs3x2+mw==",
+      "sha512": "iufkZip18UWFljbZjVpXcCqB8LBvxAoFMLRAMyANVNXkuayKYuQPl/E07muRlCYmkDTUFGyQioU5WHBawCu/gw==",
       "type": "package",
       "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22507,7 +22507,7 @@
       ]
     },
     "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "903sMr0WffmzEjGGZXgEcTa4yCJiJaQth/ud8cR1+PlOZW/TXaefCQ9C8qmN8Knvs32yJoPQbXP9GHjEtlp81A==",
+      "sha512": "cyuG6c1fX2tuLByZ+RyIqzI22Y1qcusVA2xWma1T3q0dJY43oUu8p37hRnLLg+iKCmeWx2p6pf365xR9wl/0qQ==",
       "type": "package",
       "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -22701,7 +22701,7 @@
       ]
     },
     "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.2.3": {
-      "sha512": "HHX4+acMi+KeTPzJfyRuKb7qpnLVsUWWEPUCaBY7SWrajs2rbNS4FOg2EseTGElBuUBqRAbKk0J+U8p7t1yzhg==",
+      "sha512": "brlcvN8Tp9bz+jp46O2iNXhqcEbnvtpmViUENyzAJj+BNm60TxUJbG56+9D+yauA+5BT2CR3nEkfeTnWV8/ILQ==",
       "type": "package",
       "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.2.3",
       "files": [
@@ -23251,12 +23251,11 @@
       ]
     },
     "System.Collections.Immutable/1.2.0": {
-      "sha512": "2KnDB5xOmdERBZDniirmMPmY4AIUM7AbAIn+faLNShDc3mk0pe8iiPzBuJc5vMhTmMwEZbV2QbRAcaY+y2zwkw==",
+      "sha512": "Cma8cBW6di16ZLibL8LYQ+cLjGzoKxpOTu/faZfDcx94ZjAGq6Nv5RO7+T1YZXqEXTZP9rt1wLVEONVpURtUqw==",
       "type": "package",
       "path": "system.collections.immutable/1.2.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Collections.Immutable.dll",
@@ -27902,24 +27901,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\aito\\.nuget\\packages\\": {},
+    "C:\\Users\\user\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
       "projectName": "SlotAlignmentOptimizer",
-      "projectPath": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
-      "packagesPath": "C:\\Users\\aito\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aito\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\obj\\",
+      "projectPath": "C:\\Users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\source\\repos\\SlotAlignmentOptimizer\\SlotAlignmentOptimizer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\aito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

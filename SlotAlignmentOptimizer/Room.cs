@@ -15,7 +15,7 @@ namespace SlotAlignmentOptimizer
         public Event[] events { get; private set; }
         public int max_events { get; private set; }
         int tail;
-        bool changable;
+        public bool changable { get; private set; }
         public Room(string name, int max)
         {
             this.name = name;
@@ -52,6 +52,15 @@ namespace SlotAlignmentOptimizer
         public void unchangable()
         {
             changable = false;
+        }
+        public override string ToString()
+        {
+            string str = "<room name=\"" + name + "\">";
+            foreach (Event e in events)
+            {
+                str += e.ToString();
+            }
+            return str + "</room>";
         }
     }
 }

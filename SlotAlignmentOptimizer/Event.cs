@@ -41,15 +41,14 @@ namespace SlotAlignmentOptimizer
         {
             return attendees.Count;
         }
-        override public string ToString()
+        public override string ToString()
         {
-            string s = "<event>";
-            s = "<name>" + name + "</name><attendees>";
+            string s = "<event name=\""+name+"\">";
             foreach (Attendee a in attendees)
             {
                 s += a.ToString();
             }
-            return s + "</attendees></event>";
+            return s + "</event>";
         }
     }
 }

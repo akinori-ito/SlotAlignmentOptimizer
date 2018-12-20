@@ -7,41 +7,45 @@ using System.Threading.Tasks;
 
 namespace SlotAlignmentOptimizer
 {
-    // 複数の部屋のクラス
-    // 同じ時間スロットで複数の部屋でイベントが開催される
-    public class Rooms
+    public class Eventpair
     {
-        public class Eventpair
+        int[] room;
+        int[] slot;
+        Rooms rooms;
+        public Eventpair(Rooms rs)
         {
-            int[] room;
-            int[] slot;
-            Rooms rooms;
-            public Eventpair(Rooms rs)
+            this.rooms = rs;
+            room = new int[2];
+            slot = new int[2];
+            do
             {
-                this.rooms = rs;
-                room = new int[2];
-                slot = new int[2];
                 do
                 {
                     room[0] = rs.rand_room();
                     room[1] = rs.rand_room();
-                    slot[0] = rs.rand_slot();
-                    slot[1] = rs.rand_slot();
-                } while (room[0] == room[1] && slot[0] == slot[1]);
-            }
-            public Event GetEvent(int i)
-            {
-                return rooms.rooms[room[i]].Get(slot[i]);
-            }
-            public void swap()
-            {
-                Event e0 = rooms.rooms[room[0]].Get(slot[0]);
-                Event e1 = rooms.rooms[room[1]].Get(slot[1]);
-                rooms.rooms[room[0]].Set(slot[0], e1);
-                rooms.rooms[room[1]].Set(slot[1], e0);
-            }
+                } while (!rooms.rooms[room[0]].changable || 
+                         !rooms.rooms[room[1]].changable);
+                slot[0] = rs.rand_slot();
+                slot[1] = rs.rand_slot();
+            } while (room[0] == room[1] && slot[0] == slot[1]);
         }
+        public Event GetEvent(int i)
+        {
+            return rooms.rooms[room[i]].Get(slot[i]);
+        }
+        public void swap()
+        {
+            Event e0 = rooms.rooms[room[0]].Get(slot[0]);
+            Event e1 = rooms.rooms[room[1]].Get(slot[1]);
+            rooms.rooms[room[0]].Set(slot[0], e1);
+            rooms.rooms[room[1]].Set(slot[1], e0);
+        }
+    }
 
+    // 複数の部屋のクラス
+    // 同じ時間スロットで複数の部屋でイベントが開催される
+    public class Rooms
+    {
         public List<Room> rooms;
         int max_events;
         Random rand = new Random();
@@ -87,9 +91,11 @@ namespace SlotAlignmentOptimizer
             }
             return val;
         }
-        public void AddRoom(string name)
+        public Room AddRoom(string name)
         {
-            rooms.Add(new Room(name, max_events));
+            var r = new Room(name, max_events);
+            rooms.Add(r);
+            return r;
         }
         public int rand_room()
         {
@@ -98,6 +104,15 @@ namespace SlotAlignmentOptimizer
         public int rand_slot()
         {
             return rand.Next(max_events);
+        }
+        public override string ToString()
+        {
+            string str = "<rooms>";
+            foreach (var r in rooms)
+            {
+                str += r.ToString();
+            }
+            return str + "</rooms>";
         }
     }
 }
