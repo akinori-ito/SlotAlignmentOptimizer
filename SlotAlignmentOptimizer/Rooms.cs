@@ -49,8 +49,8 @@ namespace SlotAlignmentOptimizer
         public List<Room> rooms;
         int max_events;
         Random rand = new Random();
-        const double OVERLAP_PENALTY = 10000;
-        const double CHANGE_PENALTY = 10;
+        const double OVERLAP_PENALTY = 10;
+        const double CHANGE_PENALTY = 0.01;
         public Rooms(int max)
         {
             max_events = max;
@@ -114,5 +114,38 @@ namespace SlotAlignmentOptimizer
             }
             return str + "</rooms>";
         }
+        // とりあえず書いておく
+        public void anneal(double inittemp, int Nepoch, int Niter)
+        {
+            double loss = this.loss();
+            double temp = inittemp;
+            for (int j = 0; j < Nepoch; j++)
+            {
+                for (int i = 0; i < Niter; i++)
+                {
+                    Eventpair p = new Eventpair(this);
+                    p.swap();
+                    double newloss = this.loss();
+                    if (newloss < loss)
+                    {
+                        loss = newloss;
+                    }
+                    else
+                    {
+                        double prob = Math.Exp((loss - newloss) / temp);
+                        if (rand.NextDouble() < prob)
+                        {
+                            loss = newloss;
+                        }
+                        else
+                        {
+                            p.swap();
+                        }
+                    }
+                }
+                temp /= 2;
+            }
+        }
+
     }
 }
