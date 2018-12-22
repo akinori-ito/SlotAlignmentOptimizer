@@ -1,6 +1,6 @@
 C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\bin\Debug\SlotAlignmentOptimizer.dll
 C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\bin\Debug\SlotAlignmentOptimizer.pdb
-C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\obj\Debug\SlotAlignmentOptimizer.csprojAssemblyReference.cache
 C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\obj\Debug\SlotAlignmentOptimizer.csproj.CoreCompileInputs.cache
 C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\obj\Debug\SlotAlignmentOptimizer.dll
 C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\obj\Debug\SlotAlignmentOptimizer.pdb
+C:\Users\user\source\repos\SlotAlignmentOptimizer\SlotAlignmentOptimizer\obj\Debug\SlotAlignmentOptimizer.csprojAssemblyReference.cache

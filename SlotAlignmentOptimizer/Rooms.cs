@@ -115,7 +115,7 @@ namespace SlotAlignmentOptimizer
             return str + "</rooms>";
         }
         // とりあえず書いておく
-        public void anneal(double inittemp, int Nepoch, int Niter)
+        public void anneal(double inittemp, int Nepoch, int Niter, double tconst = 2.0, Action<int,int,double> callback = null)
         {
             double loss = this.loss();
             double temp = inittemp;
@@ -129,6 +129,10 @@ namespace SlotAlignmentOptimizer
                     if (newloss < loss)
                     {
                         loss = newloss;
+                        if (callback != null)
+                        {
+                            callback(j, i, loss);
+                        }
                     }
                     else
                     {
@@ -136,6 +140,10 @@ namespace SlotAlignmentOptimizer
                         if (rand.NextDouble() < prob)
                         {
                             loss = newloss;
+                            if (callback != null)
+                            {
+                                callback(j, i, loss);
+                            }
                         }
                         else
                         {
@@ -143,7 +151,7 @@ namespace SlotAlignmentOptimizer
                         }
                     }
                 }
-                temp /= 2;
+                temp /= tconst;
             }
         }
 
